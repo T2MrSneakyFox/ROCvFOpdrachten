@@ -1,0 +1,39 @@
+h1 {
+  color: green;
+  font-size: 40px;
+  font-family: Courier;
+}
+
+h2 {
+  color: red;
+  font-size: 35px;
+  font-family: Courier;
+}
+
+h3 {
+  color: blue;
+  font-size: 20px;
+  font-family: Courier;
+}
+
+h4 {
+  color: blue;
+  font-size: 35px;
+  font-family: Courier;
+}
+
+a {
+  font-family: Courier;
+}
+
+h5 {
+  color: green;
+  font-size: 30px;
+  font-family: Courier;
+}
+
+h6 {
+  color: green;
+  font-size: 80px;
+  font-family: Courier;
+}

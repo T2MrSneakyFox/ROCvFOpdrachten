@@ -1,0 +1,33 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sizes {
+  background-color: red;
+  height: 80vh;
+  flex-basis: 80vw;
+}
+@media screen and (max-width: 1200px) {
+  .sizes {
+    background-color: yellow;
+    height: 60vh;
+    flex-basis: 40vw;
+  }
+}
+@media screen and (max-width: 992px) {
+  .sizes {
+    background-color: green;
+    height: 30vh;
+    flex-basis: 20vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sizes {
+    background-color: blue;
+    height: 20vh;
+    flex-basis: 15vw;
+  }
+}

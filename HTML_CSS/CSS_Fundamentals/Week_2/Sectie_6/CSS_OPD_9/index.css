@@ -1,0 +1,11 @@
+body {
+  background-color: tan;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-decoration: underline;
+}
+div {
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+.container {
+  gap: 10px;
+  width: 97vw;
+  height: 97vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 100px;
+}
+.header2 {
+  text-align: right;
+  padding: 0px 100px 0px 0px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  padding: 125px;
+  border: solid 10px;
+}
+img {
+  margin-top: 50px;
+}
+.text1 {
+  text-align: left;
+  padding: 0px 0px 0px 550px;
+}
+.link {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+hr {
+  position: relative;
+  top: 5px;
+}
+.imgfooter {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 800px;
+  position: relative;
+  top: -100px;
+}
+html {
+  font-family: "Courier New", Courier, monospace;
+}

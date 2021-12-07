@@ -1,0 +1,13 @@
+.container {
+  gap: 10px;
+  width: 97vw;
+  height: 97vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px;
+}
+h2 {
+  margin-top: 100px;
+  text-align: center;
+}
