@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/TheGang.png);
+  background-image: url(images/ftbbc.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,6 +17,29 @@ body {
 h1 {
   font-family: "Gotham Light", monospace;
   text-align: center;
+}
+
+#Content {
+  width: auto;
+  height: 700px;
+  align-items: center;
+}
+
+#ContentText {
+  width: 500px;
+  margin: auto;
+}
+
+h2 {
+  font-family: "Gotham Light", monospace;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-family: "Gotham Light", monospace;
+  text-align: center;
+  color: white;
 }
 
 .navbar {
@@ -91,24 +114,6 @@ a:hover {
   display: block;
 }
 
-.grid-container {
-  margin-top: 25px;
-  margin-bottom: 65px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 75px;
-  grid-column-gap: 50px;
-}
-
-.grid-item {
-  background-color: rgba(135, 135, 135, 0.8);
-  border: 2px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-}
-
 footer {
   display: flex;
   overflow: hidden;
@@ -116,6 +121,7 @@ footer {
   background-color: #878787af;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 50px;
   padding: 5px;
   justify-content: center;
 }

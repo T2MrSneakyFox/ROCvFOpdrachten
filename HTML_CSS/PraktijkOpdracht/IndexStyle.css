@@ -1,8 +1,8 @@
 body {
-  background-color: white;
+  background-image: url(images/SneakysCave.png);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   margin: 0;
   padding: 0;
 }
@@ -10,7 +10,7 @@ body {
 .header {
   overflow: hidden;
   padding: 4px 4px;
-  background-color: #404041;
+  background-color: #404041af;
   color: white;
 }
 
@@ -180,22 +180,10 @@ input[name="r"] {
   margin-left: -40%;
 }
 
-#r4:checked ~ .s1 {
-  margin-left: -60%;
-}
-
-#r5:checked ~ .s1 {
-  margin-left: -80%;
-}
-
-#r6:checked ~ .s1 {
-  margin-left: -100%;
-}
-
 footer {
   overflow: hidden;
   color: white;
-  background-color: #878787;
+  background-color: #878787af;
   display: flex;
   margin-left: 10px;
   margin-right: 10px;
