@@ -1,0 +1,22 @@
+body {
+  background-color: coral;
+}
+
+.gridcontainer {
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.white {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+
+.black {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+}
