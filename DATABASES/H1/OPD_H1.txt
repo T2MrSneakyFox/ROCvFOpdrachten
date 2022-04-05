@@ -1,0 +1,6 @@
+SELECT naam, plaats
+FROM reisbureau.klant
+WHERE plaats = 'Eindhoven'
+
+6 klanten
+
